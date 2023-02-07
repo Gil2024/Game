@@ -1,0 +1,42 @@
+def room1():
+    print("You commence your adventure. You walk a long time, then you walk an even longer time. Just as you begin to doubt your journey, you hear the voice of the Awesome Dude: *I see youve passed the test of endurance. Good, very very good. You should be coming up on a fork in the road. Ah, there it is!* There are two paths ahead of you. *The path on the right leads you to a Goblin-man called Geebleshmirk. If you defeat him, you would do me a favor. Hes quite annoying, you see, so if you can manage to beat him then maybe youd get some more awesomeness out of this adventure.* You see no reason to defeat a goblin, but the entire point of your journey is to become awesome, so you might take it into consideration. *The path on the left is the road to the awesome chair.* *Now choose, stay the path or fight the Goblin-Man .")
+    choice2 = input("type l or r ")
+    if choice2 == "r":
+        print("You decide to do the Awesome Dude the favor of defeating Geebleshmirk, and proceed through his path. As you walk through, you start to see a yellow substance on the walls of the cavern. Then shells. Egg shells. You realise the substance on the walls is EGG YOLK. You finally arrive at the Goblin-man's layer. It is a very musty cave with broken eggs covering the floor and the walls. *Hhehehehehohohohhahahaaaa I am the Goblin-Man Geebleshmirk !!!!!!!!!!* Ahead of you lies a little man with greenish skin with horrendous hair that goes down to his devilish toes. His hair is tinted a mixture of brown and blonde, and he wears a pair of incredibly nerdy glasses on his mischievous face. *I see the Not-So-Awesome Dude has sent an eggy person to my lair in the hopes that the egg theft will end heheheheheee.* His voice is like a vassal of horror to the ears. *Unfortunately for him hehehe... I will not be bested by the likes of a little eggfart like you!!!!!* As he approaches, you ready yourself for a fight. He lunges forward, and you clock him right in the face. Geebleshmirk is instantly defeated. That was awfully short. You proceed through to an opening in his lair. In it, lies a bioluminescent lake. You admire its beauty. Too bad this is a text-based game. If it wasnt, then this game would be an easy contender for Game of the Year. Weary of that fight, you decide to take a break next to the lake. You are there for a moment. All of a sudden, a giant catfish splashes out of the lake. Before you can question it, the catfish speaks: *Hello, I am the wise catfish of this very beautiful lake. I have come to dispense wisdom to you.* Hearing this, you listen to what it says. *I must warn you of a dangerous, devious little critter that lurks around these caves. His name: Ratatoui, the king of all ratmen! Hes a rat about as big as a 12 year old kid. Do NOT attemt to fight him. ok bye* The catfish seemed very wise, but you are now curious of the King of ratmen. The king doesnt matter, though. The power of awesomeness still awaits. After that strange break, you get up and continue on the path to awesomeness. In the next room, you find a golden throne. Its... the awesome chair! You immediately dash towards it, but then a giant rat wearing expensive branded clothing blocks your dash. *WHATS UP. I see youre trying to sit on the throne of awesomeness, correct?* You nod your head. *Well then, youre aiming for the wrong object of power! My cheese, on the other hand, is very, very powerful. Way more powerful than that lame chair. Wanna see it, I got f...* You grow tired quickly of his speech. You see an chance to take the throne and ascend to awesomehood, or you can fight him.")
+        choice3 = input("type throne or fight ")
+        if choice3 == "throne":
+            print("You make a mad dash toward the throne. The king of all ratmen is too caught up in bragging about his cheese collection to notice you. You climb up the throne, you sit on it, and you feel the awesomeness in your body. You ascend to awesomehood. You are transported to an field of glass. You see the Awesome Dude. *Good, you are now awesome. This is a different plane of reality. Where all the awesome people reside.* What a convenient explanation! *Now, as you can see, it is empty. You are the first person to reach this realm besides myself. We can only hope that others find this cave, and pass the test. Oh! there seems to be another entering the cave!* Awesome Dude speaks to this person.")
+            print("Awesome Dude: So... do YOU want to be AWESOME?")
+        choice4 = input("type y or n ")
+        if choice4 == "y":
+            print("THE END")
+        elif choice4 == "n":
+            print("THE END")
+        elif choice3 =="fight":
+            print("You ready yourself, you punch the rat's face. It didnt affect him. Quickly, you try to dodge his counterattack, but  It is more devastating than you thought, and the ratman leaves a giant cartoonish hole in your face. Then you explode. YOU DIED")
+    elif choice2 == "l":
+        print("You proceed through the left path. In it, lies a bioluminescent lake. You admire its beauty. Too bad this is a text-based game. If it wasnt, then this game would be an easy contender for Game of the Year. Weary of all of that walking, you decide to take a break next to the lake. You are there for a moment. All of a sudden, a giant catfish splashes out of the lake. Before you can question it, the catfish speaks: *Hello, I am the wise catfish of this very beautiful lake. I have come to dispense wisdom to you.* Hearing this, you listen to what it says. *I must warn you of a dangerous, devious little critter that lurks around these caves. His name: Ratatoui, the king of all ratmen! Hes a rat about as big as a 12 year old kid. Do NOT attemt to fight him. ok bye* The catfish seemed very wise, but you are now curious of the King of ratmen. The king doesnt matter, though. The power of awesomeness still awaits. After that strange break, you get up and continue on the path to awesomeness. In the next room, you find a golden throne. Its... the awesome chair! You immediately dash towards it, but then a giant rat wearing expensive branded clothing blocks your dash. *WHATS UP. I see youre trying to sit on the throne of awesomeness, correct?* You nod your head. *Well then, youre aiming for the wrong object of power! My cheese, on the other hand, is very, very powerful. Way more powerful than that lame chair. Wanna see it, I got f...* You grow tired quickly of his speech. You see an chance to take the throne and ascend to awesomehood, or you can fight him.")
+        choice3 = input("type throne or fight ")
+        if choice3 == "throne":
+            print("You make a mad dash toward the throne. The king of all ratmen is too caught up in bragging about his cheese collection to notice you. You climb up the throne, you sit on it, and you feel the awesomeness in your body. You ascend to awesomehood. You are transported to an field of glass. You see the Awesome Dude. *Good, you are now awesome. This is a different plane of reality. Where all the awesome people reside.* What a convenient explanation? *Now, as you can see, it is empty. You are the first person to reach this realm besides myself. We can only hope that others find this cave, and pass the test. Oh! there seems to be another entering the cave!* Awesome Dude speaks to this person.")
+            print("Awesomer dude: So... do YOU want to be AWESOME?")
+        choice4 = input("type y or n ")
+        if choice4 == "y":
+            print("THE END")
+        elif choice4 == "n":
+            print("THE END")
+        elif choice3 =="fight":
+            print("You ready yourself, you punch the rat's face. It didnt affect him. Quickly, you try to dodge his counterattack, but  It is more devastating than you thought, and the ratman leaves a giant cartoonish hole in your face. Then you explode. YOU DIED")
+
+
+def startadventure():
+    print("How to be awesome: the adventure")
+    print("Awesome Dude: So... do YOU want to be AWESOME?")
+    choice1 = input("type y or n ")
+    if choice1 == "y":
+        print("GOOD. You will now go into this pretty shady cavern, where the awesome chair lies hidden. You must sit upon it, and gain some pretty cool powers.")
+        room1()
+    elif choice1 == "n":
+        print("Wow, what a lame little nerd. As he says these words, you feel your life leave your body...then you blow up. YOU DIED")
+
+startadventure()
